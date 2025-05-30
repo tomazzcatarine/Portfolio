@@ -312,27 +312,27 @@ body, html {
 }
 
 .prototipacao {
-    max-width: 350px;
-    display: grid;
-    grid-template-columns: repeat(2, 120px); /* Largura fixa pra alinhar melhor */
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-top: -720px;
-    margin-left: 900px;
+  max-width: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 120px); /* Largura fixa pra alinhar melhor */
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -720px;
+  margin-left: 900px;
 
-    padding: 40px 150px;
-    border: 1px solid #6e1e1b;
-    border-radius: 15px;
+  padding: 40px 150px;
+  border: 1px solid #6e1e1b;
+  border-radius: 15px;
 }
 /* ===== Estilização das posições e transformações dos SVGs ===== */
 .draw-1 {
-    margin-left: -120px;
-    position: absolute;
-    top: 900px;
-    width: 400px;
-    height: auto;
-    transform: rotate(-120deg);
+  margin-left: -120px;
+  position: absolute;
+  top: 900px;
+  width: 400px;
+  height: auto;
+  transform: rotate(-120deg);
 }
 
 .draw-2 {
@@ -687,28 +687,28 @@ svg:nth-child(3).visible path {
 }
 
 .card {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 12px;
-    width: 450px;
-    height: 300px;
-    background-color: #fff8ed;
-    border: 1px solid #6e1e1b;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-weight: 600;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 12px;
+  width: 450px;
+  height: 300px;
+  background-color: #fff8ed;
+  border: 1px solid #6e1e1b;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-weight: 600;
 }
 
 .card-2 {
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    width: 450px;
-    height: 300px;
-    background-color: #fff8ed;
-    border: 1px solid #6e1e1b;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    font-weight: 600;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: 450px;
+  height: 300px;
+  background-color: #fff8ed;
+  border: 1px solid #6e1e1b;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-weight: 600;
 }
 
 .header {
@@ -954,4 +954,88 @@ svg:nth-child(3).visible path {
 
 .carrossel-btn:hover {
   background-color: #e25152;
+}
+
+.contato {
+  background-color: #fff7ef;
+  padding: 40px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contato-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1900px;
+  margin: 0 auto;
+  background-color: #b0413e;
+  padding: 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contato-ilustracao img {
+  width: 420px;
+    margin-left: 200px;
+}
+
+.contato-formulario {
+  flex: 1;
+  min-width: 20px;
+  margin-left: 150px;
+  color: white;
+}
+
+.contato-formulario h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+
+}
+
+.contato-formulario form {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contato-formulario label {
+  font-weight: 600;
+}
+
+.contato-formulario input,
+.contato-formulario textarea {
+  padding: 10px;
+  font-family: var(--fonte-3);
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.contato-formulario button {
+  background-color: #fff7ef;
+  font-family: var(--fonte-3);
+  color: #b0413e;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.contato-formulario button:hover {
+  background-color: #f1e5d6;
+}
+
+.rodape {
+  background-color: #4e1f1e;
+  color: #fff7ef;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: -40px;
+  font-size: 12px;
 }
