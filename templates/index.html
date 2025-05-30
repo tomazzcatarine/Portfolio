@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Catarine Tomaz</title>
+    <link rel="stylesheet" href="/static/style/estilo.css">
+    <link rel="stylesheet" href="/static/style/responsivo.css">
+    <link rel="shortcut icon" href="/static/assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <script>
+        // Animação de entrada do crachá
+        window.addEventListener('DOMContentLoaded', () => {
+            const cracha = document.querySelector('.cracha');
+            if (cracha) {
+                cracha.classList.add('entrada');
+            }
+        });
+
+        function scrollParaTecnologias() {
+            document.getElementById("tecnologias").scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollParaSkills() {
+            document.getElementById("skills").scrollIntoView({ behavior: 'smooth' });
+        }
+        function scrollParaProjetos() {
+            document.getElementById("projeto-destaque").scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+    <section id="principal">
+        <img class="cracha" src="/static/assets/cracha.png" alt="">
+        <img class="nome" src="/static/assets/nome.png" alt="">
+
+        <div class="escrita">
+            <h1>PORTFÓLIO</h1>
+            <img class="gif" src="/static/assets/ola.gif" alt="">
+            <h2>
+                Formada em Desenvolvimento de Sistemas pela rede SESI/SENAI. <br>
+                Tenho interesse por tecnologia e design, e gosto de explorar <br>
+                soluções criativas que unam funcionalidade e estética.</h2>
+        </div>
+
+        <div class="pastas">
+            <img src="/static/assets/tecnologias.png" alt="" onclick="scrollParaTecnologias()">
+            <img src="/static/assets/skills.png" alt="" onclick="scrollParaSkills()">
+            <img src="/static/assets/projetos.png" alt="" onclick="scrollParaProjetos()">
+        </div>
+
+        <div class="redes-sociais">
+            <div class="rede_1">
+                <div class="icone-container">
+                    <img class="icone normal" src="/static/assets/linkedin.png" alt="LinkedIn">
+                    <img class="icone hover" src="/static/assets/linkedin_hover.png" alt="LinkedIn Hover">
+                </div>
+                <a href="https://www.linkedin.com/in/catarine-tomaz/" target="_blank">catarine-tomaz</a>
+            </div>
+            <div class="rede_2">
+                <div class="icone-container">
+                    <img class="icone normal" src="/static/assets/gmail.png" alt="Gmail">
+                    <img class="icone hover" src="/static/assets/gmail_hover.png" alt="Gmail Hover">
+                </div>
+                <span>tomazcatarine@gmail.com</span>
+            </div>
+            <div class="rede_3">
+                <div class="icone-container">
+                    <img class="icone normal" src="/static/assets/github.png" alt="GitHub">
+                    <img class="icone hover" src="/static/assets/github_hover.png" alt="GitHub Hover">
+                </div>
+                <a href="https://github.com/tomazzcatarine" target="_blank">@tomazzcatarine</a>
+            </div>
+        </div>
+
+    </section>
+
+    <hr class="linha-1">
+
+    <section id="tecnologias">
+        <img class="tecnologias-icon" src="/static/assets/tecnologias_icon.png" alt="">
+        <div class="tecnologias-container">
+            <div class="programacao">
+                <h4>programação</h4>
+                <div class="linguagem">
+                    <img src="/static/assets/js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/html.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/css.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/python.png" alt="Python">
+                    <p>PYTHON</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/sql.png" alt="Banco de Dados">
+                    <p>Banco de <br> Dados</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/flask.png" alt="Flask">
+                    <p>FLASK</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/api.png" alt="API">
+                    <p>API's</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/github_icon.png" alt="GitHub">
+                    <p>GitHub</p>
+                </div>
+            </div>
+            
+
+            <div class="prototipacao">
+                <h4>prototipação</h4>
+                <div class="linguagem">
+                    <img src="/static/assets/figma.png" alt="Figma">
+                    <p>Figma</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/canva.png" alt="Canva">
+                    <p>Canva</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/miro.png" alt="Canva">
+                    <p>Miro</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/trello.png" alt="Canva">
+                    <p>Trello</p>
+                </div>
+                <div class="linguagem">
+                    <img src="/static/assets/vscode.png" alt="Canva">
+                    <p>VSCode</p>
+                </div>                
+                <div class="linguagem">
+                    <img src="/static/assets/kanban.png" alt="Canva">
+                    <p>Kanban</p>
+                </div>
+            </div>
+        </div>
+
+        <svg class="draw-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227 218" width="300" height="300">
+            <path d="M19.2271 0.182861C19.2271 33.3049 51.5287 63.6866 84.3408 63.6866C117.153 63.6866 149.454 94.0683 149.454 127.19" />
+            <path d="M149.454 127.19C149.454 160.312 117.153 190.694 84.3409 190.694C51.5288 190.694 19.2272 160.312 19.2272 127.19" />
+        </svg>
+
+        <svg class="draw-2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M140 10 C100 50, 150 120, 90 110 C30 100, 20 150, 70 190"
+                fill="none"
+                stroke="#f2ddd3"
+                stroke-width="12"/>
+        </svg>
+
+        <svg class="draw-3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M40 30 C10 70, 90 90, 50 130 C10 170, 130 200, 170 130"
+                fill="none"
+                stroke="#f2ddd3"
+                stroke-width="12"
+                stroke-linecap="round"
+                stroke-linejoin="round"/>
+        </svg>
+    </section>
+
+    <hr class="linha-2">
+
+    <h1 class="titulo">INTERESSES</h1>
+
+    <div class="tags-interesses">
+            <span class="tag-1">DESENVOLVIMENTO FRONT-END</span>
+            <span class="tag-2">DESENHO E ANIMAÇÃO</span>
+            <span class="tag-3">ARTE</span>
+            <span class="tag-4">MÚSICA</span>
+            <span class="tag-5">DESENVOLVIMENTO BACK-END</span>
+            <span class="tag-6">DESIGN GRÁFICO</span>
+    </div>
+
+    <hr class="linha-3">
+
+    <section id="skills">
+        <h1 class="titulo-skills"></h1>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const titulo = document.querySelector('.titulo-skills');
+                const texto = "CONHEÇA MINHAS SKILLS";
+                let i = 0;
+
+            function digitar() {
+                if (i < texto.length) {
+                    titulo.textContent += texto.charAt(i);
+                    i++;
+                    setTimeout(digitar, 150); // velocidade da digitação (ms)
+                }
+            }
+
+            digitar();
+            });
+
+
+            document.addEventListener("DOMContentLoaded", () => {
+                const svgs = document.querySelectorAll("svg");
+
+                const observer = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("visible");
+                            observer.unobserve(entry.target); // Anima só uma vez
+                        }
+                    });
+                }, {
+                    threshold: 0.2 // ativa quando 20% do SVG aparece na tela
+                });
+
+                svgs.forEach(svg => {
+                    observer.observe(svg);
+                });
+            });
+        </script>
+
+        <div class="container">
+            <!-- Mouse falso -->
+            <div class="fake-mouse" id="mouse"></div>
+            <!-- Imagem da "pasta" com sua foto -->
+            <img src="/static/assets/image.png" alt="Pasta com foto" class="pasta" id="pasta">
+        </div>
+        <svg class="draw-4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M40 30 C10 70, 90 90, 50 130 C10 170, 130 200, 170 130"
+                fill="none"
+                stroke="#f2ddd3"
+                stroke-width="12"
+                stroke-linecap="round"
+                stroke-linejoin="round"/>
+        </svg>
+
+        <svg class="draw-5" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M140 10 C100 50, 150 120, 90 110 C30 100, 20 150, 70 190"
+                fill="none"
+                stroke="#f2ddd3"
+                stroke-width="12"/>
+        </svg>
+
+
+        <div class="skills" id="skills">
+            <div class="card">
+                <div class="header">HARD SKILLS</div>
+                <ul>
+                    <li>Programação</li>
+                    <li>Conhecimento em desenvolvimento web;</li>
+                    <li>Inglês intermediário (nível B1);</li>
+                    <li>Familiaridade com banco de dados;</li>
+                    <li>Conhecimento básico de Git/GitHub;</li>
+                    <li>Aplicações em design;</li>
+                </ul>
+            </div>
+
+            <div class="card-2">
+                <div class="header-2">SOFT SKILLS</div>
+                <ul>
+                <li>Criatividade</li>
+                <li>Paciência e Empatia</li>
+                <li>Trabalho em equipe</li>
+                <li>Planejamentos e estrutura ideias</li>
+                <li>Proatividade e interesse na área</li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener("DOMContentLoaded", () => {
+                const pasta = document.getElementById("pasta");
+                const skills = document.getElementById("skills");
+                const mouse = document.getElementById("mouse");
+
+                // Espera a página carregar, depois move o mouse falso até a pasta
+                setTimeout(() => {
+                    mouse.classList.add("move");
+                }, 1000); // espera 1 segundo
+
+                // Depois que o mouse chegou, mostra as skills
+                setTimeout(() => {
+                    skills.classList.add("visible");
+                }, 2000); // espera mais 1 segundo após o movimento
+            });
+        </script>
+    </section>
+    
+    <hr class="linha-4">
+
+    <section class="projeto-destaque" id="projeto-destaque">
+        <div class="titulo-projetos"><h1>PROJETOS</h1> <h2> HTML +</h2><h3>CSS </h3><h4>+ JS </h4></div>
+        
+        <div class="conteudo-projeto">
+            <div class="descricao">
+            <h2 id="titulo-projeto">Site de Investimento</h2>
+            <p id="descricao-projeto">
+                Desenvolvido a partir de uma proposta interdisciplinar entre as disciplinas de Matemática e Programação...
+            </p>
+            <div id="tags-projeto" class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Simulador</span>
+            </div>
+            </div>
+            <div class="imagem-projeto">
+                <div class="janela-navegador">
+                    <div class="topo-janela">
+                        <span class="botao vermelho"></span>
+                        <span class="botao amarelo"></span>
+                        <span class="botao verde"></span>
+                    </div>
+                    <img id="imagem-projeto" src="/static/assets/semicolon.png" alt="Imagem do Projeto">
+                </div>
+                <a id="link-projeto" href="#" class="botao-site" target="_blank">Ver Site</a>
+            </div>
+        </div>
+
+        <div class="carrossel-wrapper">
+            <button class="carrossel-btn" id="prev-btn">‹</button>
+            <div class="carrossel" id="carrossel">
+            <!-- Projetos miniatura -->
+            <img src="/static/assets/semicolon.png". alt="Site de Investimento" data-id="investimento">
+            <img src="/static/assets/chat.png" alt="Chat Online" data-id="chat">
+            <img src="/static/assets/vibravision.png" alt="Vibra Vision" data-id="vibra">
+            <img src="/static/assets/gamemaster.png" alt="Game Master" data-id="game">
+            <img src="/static/assets/jogo.png" alt="Super Trunfo" data-id="trunfo">
+            <img src="/static/assets/elovet.png" alt="Elovet" data-id="elovet">
+            </div>
+            <button class="carrossel-btn" id="next-btn">›</button>
+        </div>
+    </section>
+
+    <script>
+        const projetos = {
+        investimento: {
+            titulo: "Site de Investimento",
+            descricao: "Desenvolvido a partir de uma proposta interdisciplinar entre as disciplinas de Matemática e Programação, esse projeto surgiu após uma visita à B3, a bolsa de valores oficial do Brasil. O site apresenta simulador de investimentos, artigos e informações financeiras de forma acessível.",
+            imagem: "/static/assets/semicolon.png",
+            tags: ["HTML", "CSS", "Simulador"],
+            link: ""
+        },
+        chat: {
+            titulo: "ChatNoir - Chat Online",
+            descricao: "Projeto de chat online desenvolvido com Flask e Socket.IO. Permite comunicação em tempo real entre usuários, com funcionalidades de sala de bate-papo e mensagens privadas.",
+            imagem: "/static/assets/chat.png",
+            tags: ["HTML", "CSS", "Flask", "Socket.IO"],
+            link: "https://477h9ikc9v8p.manus.space/"
+        },
+        vibra: {
+            titulo: "Vibra Vision",
+            descricao: "Site criado para divulgar a invenção de uma pulseira com sensor para pessoas cegas, feita por um aluno do SENAI em 2024. O site apresenta informações da invenção, do inventor e oferece opção de compra.",
+            imagem: "/static/assets/vibravision.png",
+            tags: ["HTML", "CSS", "Acessibilidade"],
+            link: "https://projeto-inovar-vibra-vision-2024.onrender.com/index.html"
+        },
+        game: {
+            titulo: "Game Master",
+            descricao: "Site de cadastro e consulta de jogos, criado para testar conhecimentos em front-end e back-end. O projeto exigiu bastante trabalho em equipe por conta do curto prazo de entrega.",
+            imagem: "/static/assets/gamemaster.png",
+            tags: ["HTML", "CSS", "Flask", "Python"],
+            link: "https://site-game-master-2.onrender.com/"
+
+        },
+        trunfo: {
+            titulo: "Super Trunfo Sailor Moon",
+            descricao: "Jogo de cartas inspirado em Super Trunfo, usando personagens de Sailor Moon. O foco foi treinar animações, transições e interatividade em front-end.",
+            imagem: "/static/assets/jogo.png",
+            tags: ["HTML", "CSS", "Animações"],
+            link: "https://super-trunfo-k4g8.onrender.com/"
+        },
+        elovet: {
+            titulo: "Elovet",
+            descricao: "Projeto solo criado nas férias para explorar habilidades em prototipação, design e programação. Foi uma oportunidade de sair da zona de conforto e testar novas ferramentas.",
+            imagem: "/static/assets/elovet.png",
+            tags: ["Projeto Solo", "UX/UI", "Front-end"],
+            link: "https://zkknmpqo.manus.space/"
+        }
+        };
+
+        const titulo = document.getElementById("titulo-projeto");
+        const descricao = document.getElementById("descricao-projeto");
+        const imagem = document.getElementById("imagem-projeto");
+        const tags = document.getElementById("tags-projeto");
+
+        document.querySelectorAll("#carrossel img").forEach(img => {
+        img.addEventListener("click", () => {
+            const id = img.dataset.id;
+            const projeto = projetos[id];
+
+            titulo.textContent = projeto.titulo;
+            descricao.textContent = projeto.descricao;
+            imagem.src = projeto.imagem;
+
+            tags.innerHTML = "";
+            projeto.tags.forEach(tag => {
+            const span = document.createElement("span");
+            span.classList.add("tag");
+            span.textContent = tag;
+            tags.appendChild(span);
+            });
+            const link = document.getElementById("link-projeto");
+            link.href = projeto.link;
+
+        });
+        });
+    </script>
+
+    <script>
+        const carrossel = document.getElementById("carrossel");
+        document.getElementById("prev-btn").onclick = () => carrossel.scrollLeft -= 200;
+        document.getElementById("next-btn").onclick = () => carrossel.scrollLeft += 200;
+    </script>
+
+    <section class="contato">
+        <div class="contato-container">
+            <div class="contato-ilustracao">
+            <img src="/static/assets/contato.gif" alt="Ilustração de pessoas se comunicando">
+            </div>
+            <div class="contato-formulario">
+            <h2>Entre em contato!</h2>
+            <form action="https://formsubmit.co/tomazcatarine@gmail.com" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="_next" value="https://tomazzcatarine.github.io/portfolio/obrigado.html">
+            <input type="hidden" name="_captcha" value="false">
+
+            </form>
+            </div>
+        </div>
+
+        <footer class="rodape">
+            <p>todos os direitos reservados a Catarine Tomaz (2025)</p>
+        </footer>
+    </section>
+
+</body>
+</html>
